@@ -19,7 +19,7 @@ jobs:
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
       - name: Install the latest version of uv and set the python version to 3.12
-        uses: astral-sh/setup-uv@v4
+        uses: astral-sh/setup-uv@v5
         with:
           python-version: "3.12"
 
