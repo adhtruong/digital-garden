@@ -3,7 +3,7 @@ repos:
     rev: 0.7.22
     hooks:
       - id: mdformat
-  - repo: https://github.com/crate-ci/typos
+  - repo: https://github.com/adhtruong/mirrors-typos
     rev: v1.30.2
     hooks:
       - id: typos
