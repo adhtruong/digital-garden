@@ -1,6 +1,6 @@
 # Git Hooks
 
-These are scripts that can run on stages in git lifecycle.
+These are scripts that can run when actions occur in git.
 
 These are be defined in various ways including
 
@@ -10,6 +10,5 @@ These are be defined in various ways including
 
 ## Mirroring pre-commit
 
-Some tools do not support pre-commit or do not tag properly.
-
-This can be managed by [pre-commit-mirror-maker](https://github.com/pre-commit/pre-commit-mirror-maker) to generating appropriate hooks.
+- Some tools do not support pre-commit or do not tag properly.
+- This can be managed by [pre-commit-mirror-maker](https://github.com/pre-commit/pre-commit-mirror-maker) to generate appropriate hooks.
