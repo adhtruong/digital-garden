@@ -7,3 +7,7 @@ repos:
     rev: v1.30.2
     hooks:
       - id: typos
+  - repo: https://github.com/rbubley/mirrors-prettier
+    rev: "v3.5.3"
+    hooks:
+      - id: prettier
