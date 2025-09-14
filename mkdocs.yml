@@ -1,6 +1,9 @@
 site_name: Digital Garden
 site_url: https://adhtruong.github.io/digital-garden
 repo_url: https://github.com/adhtruong/digital-garden
+plugins:
+  - search
+  - git-revision-date-localized
 theme:
   name: material
   palette:
