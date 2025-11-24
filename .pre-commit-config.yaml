@@ -6,14 +6,18 @@ repos:
     hooks:
       - id: mdformat
   - repo: https://github.com/adhtruong/mirrors-typos
-    rev: v1.30.2
+    rev: v1.36.2
     hooks:
       - id: typos
       - id: typos
         name: commit-msg-typos
         stages: [commit-msg]
         args: []
+  - repo: https://github.com/ComPWA/taplo-pre-commit
+    rev: v0.9.3
+    hooks:
+      - id: taplo-format
   - repo: https://github.com/rbubley/mirrors-prettier
-    rev: "v3.5.3"
+    rev: "v3.6.2"
     hooks:
       - id: prettier

@@ -1,5 +1,8 @@
+install:
+	uv sync --dev
+
 dev:
 	uv run mkdocs serve
 
 lint:
-	pre-commit run -a
+	uv run pre-commit run -a
