@@ -28,3 +28,17 @@ repos:
         stages: [commit-msg]
         args: []
 ```
+
+## Local hooks
+
+These are useful to avoid version sync between lock file and hook.
+
+```yaml
+repos:
+  - repo: Local
+    hooks:
+      - id: ruff
+        entry: uv run ruff
+        language: system
+        types: [python]
+```
