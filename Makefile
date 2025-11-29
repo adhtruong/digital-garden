@@ -5,4 +5,4 @@ dev:
 	uv run mkdocs serve
 
 lint:
-	uv run pre-commit run -a
+	uv run --all-groups prek run -a
